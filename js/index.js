@@ -49,3 +49,8 @@
 //   } else {
 //   }
 // });
+
+window.addEventListener("load", () => {
+  document.querySelector("#preloader").style.display = "none";
+  document.body.style.overflow = "visible";
+});
