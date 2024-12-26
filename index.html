@@ -1,0 +1,512 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT AWESOME ICONS-->
+    <script
+      src="https://kit.fontawesome.com/3a1c20dcea.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>baba</title>
+  </head>
+
+  <body>
+    <header id="header" class="header">
+      <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+          <source
+            src="https://res.cloudinary.com/dbvtwnl4j/video/upload/v1735214325/petrotec/bg_awjkbc.mp4"
+            type="video/mp4"
+          />
+          Your Browser is not supported!
+        </video>
+      </div>
+
+      <div class="navigation">
+        <div class="navigation__logo">
+          <i class="fa-brands fa-watchman-monitoring navigation__logo-icon"></i>
+          <p class="navigation__logo-text">Petrotec</p>
+        </div>
+        <nav class="navigation__nav">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Home</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#about" class="navigation__link">About us</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#services" class="navigation__link">Services</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#footer" class="navigation__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header__main">
+        <h1 class="header__main-h1">
+          <p
+            data-aos="fade-left"
+            data-aos-delay="300"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            Petrotec.co for oil
+          </p>
+          <p
+            data-aos="fade-left"
+            data-aos-delay="600"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            treatment and fuel
+          </p>
+          <p
+            data-aos="fade-left"
+            data-aos-delay="900"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          >
+            additive.
+          </p>
+        </h1>
+        <p class="header__main-p">Tarek hammad</p>
+      </div>
+
+      <div
+        class="explore"
+        data-aos="fade-right"
+        data-aos-delay="1200"
+        data-aos-duration="1000"
+        data-aos-easing="ease"
+      >
+        <a href="#services" class="explore-watch-button explore-button"
+          >Explore <span>&#8594;</span></a
+        >
+      </div>
+      <div id="popup" class="popup">
+        <div class="popup__content">
+          <a href="#services" class="popup__close-btn">&times;</a>
+          <img
+            src="https://res.cloudinary.com/dbvtwnl4j/image/upload/v1735214277/petrotec/3_phase_separator_and_oily_water_separator_ptcbpw.jpg"
+            alt="Oily Water Separator"
+            class="popup__img"
+          />
+          <div class="popup__details">
+            <h1 class="popup__heading">Heading</h1>
+            <p class="popup__sub-heading">Sub Heading</p>
+            <p class="popup__description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad eum,
+              quisquam labore mollitia nobis iusto. Repellendus magnam eos
+              provident nulla.
+            </p>
+            <div class="popup__specs"></div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="features"
+        data-aos="zoom-in-up"
+        data-aos-delay="1500"
+        data-aos-duration="1200"
+      >
+        <div class="features__card features__card-1">
+          <i class="fa-brands fa-creative-commons-sampling"></i>
+          <p class="features__text">Lorem ipsum</p>
+        </div>
+        <div class="features__card features__card-2">
+          <span class="material-symbols-outlined">lab_research</span>
+          <p class="features__text">Sed ut perspiciatis</p>
+        </div>
+        <div class="features__card features__card-3">
+          <i class="fa-solid fa-helmet-safety"></i>
+          <p class="features__text">Magni Dolores</p>
+        </div>
+        <div class="features__card features__card-4">
+          <i class="fa-solid fa-people-roof"></i>
+
+          <p class="features__text">Nemos Enimade</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="section-about">
+        <div class="about">
+          <div class="about__text">
+            <h1 class="section__heading about__heading">About Petrotec</h1>
+            <h2 class="about__text-heading">
+              We Provide Oil <span>Treatment</span> & <span>Services</span>
+            </h2>
+            <p class="about__text-paragraph">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto
+              labore similique inventore consectetur quos, ipsum vero numquam!
+              Natus, sint reiciendis. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Sequi perspiciatis repellat vero error odit
+              optio non aspernatur, laboriosam ullam praesentium magni numquam
+              rem officia, nostrum reprehenderit accusantium, quibusdam dolore
+              dolorem.
+            </p>
+          </div>
+          <div class="about__quotes">
+            <span>&#8220;</span>
+            <p class="about__quotes-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit
+            </p>
+            <span>&#8221;</span>
+            <p class="about__quotes-author">Tarek Hammad - CEO</p>
+          </div>
+        </div>
+        <div class="about__slider">
+          <div class="slide">
+            <img
+              src="https://images.pexels.com/photos/257700/pexels-photo-257700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="slide Image"
+              class="slide-img"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://images.pexels.com/photos/4406863/pexels-photo-4406863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="slide Image"
+              class="slide-img"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://images.pexels.com/photos/11678741/pexels-photo-11678741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="slide Image"
+              class="slide-img"
+            />
+          </div>
+          <div class="slide">
+            <img
+              src="https://images.pexels.com/photos/3855482/pexels-photo-3855482.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="slide Image"
+              class="slide-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section__relation">
+        <p class="relation__heading">Our Customers</p>
+        <h3 class="relation__subheading">
+          We're proud of our strategies and some companies we're proud to work
+          with
+        </h3>
+        <div class="relation__slides">
+          <div class="relation__slide" a>
+            <img
+              src="https://res.cloudinary.com/dbvtwnl4j/image/upload/v1735214438/petrotec/companies/norpetco-removebg-preview_j6nagt.png"
+              alt="Norepetco Compony Logo"
+              class="relation__slide-img"
+            />
+          </div>
+          <div class="relation__slide">
+            <img
+              src="https://res.cloudinary.com/dbvtwnl4j/image/upload/v1735214440/petrotec/companies/download-removebg-preview_jx3vsy.png"
+              alt="Oisis Compony Logo"
+              class="relation__slide-img"
+            />
+          </div>
+          <div class="relation__slide">
+            <img
+              src="https://res.cloudinary.com/dbvtwnl4j/image/upload/v1735214439/petrotec/companies/Petrofarah--removebg-preview_xuhusx.png"
+              alt="Petrofarah Compony logo"
+              class="relation__slide-img"
+            />
+          </div>
+          <div class="relation__slide">
+            <img
+              src="https://res.cloudinary.com/dbvtwnl4j/image/upload/v1735214439/petrotec/companies/agiba-petroleum-company-logo_dn0mme.png"
+              alt="Agiba Compony Logo"
+              class="relation__slide-img"
+            />
+          </div>
+          <div class="relation__slide">
+            <img
+              src="https://res.cloudinary.com/dbvtwnl4j/image/upload/v1735214440/petrotec/companies/Karoon_Logo_ltczhw.png"
+              alt="Karoon Compony Logo"
+              class="relation__slide-img"
+            />
+          </div>
+          <div class="relation__slide">
+            <img
+              src="https://res.cloudinary.com/dbvtwnl4j/image/upload/v1735214439/petrotec/companies/petroshahd_f2yyeh.png"
+              alt="Karoon Compony Logo"
+              class="relation__slide-img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section-services">
+        <div class="services-wrapper">
+          <h1 class="section__heading services__heading">Our Services</h1>
+          <p class="section__heading services__sub-heading">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            dolores commodi adipisci perspiciatis dolorem.
+          </p>
+          <div class="services">
+            <div class="services__card">
+              <div class="services__card-number">1</div>
+              <div class="services__card-icons">
+                <img
+                  src="https://res.cloudinary.com/dbvtwnl4j/image/upload/v1735214280/petrotec/Heater_d8jwre.jpg"
+                  alt="Card Icon"
+                  class="services__card-icon"
+                />
+              </div>
+              <div class="service__card-details">
+                <h1 class="services__card-heading">Heater Treater</h1>
+                <p class="services__card-sub-heading">
+                  Lorem ipsum dolor, Velit, qui?
+                </p>
+                <p class="services__card-body">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+                <a class="services__card-btn btn" href="#popup"
+                  >Learn more<i class="fa-solid fa-eye"></i
+                ></a>
+              </div>
+            </div>
+            <div class="services__card">
+              <div class="services__card-number">2</div>
+              <div class="services__card-icons">
+                <img
+                  src="https://res.cloudinary.com/dbvtwnl4j/image/upload/v1735214284/petrotec/separator_vyklwz.jpg"
+                  alt="Card Icon"
+                  class="services__card-icon"
+                />
+              </div>
+              <div class="service__card-details">
+                <h1 class="services__card-heading">3-Phase Separator</h1>
+                <p class="services__card-sub-heading">
+                  Lorem ipsum dolor, Velit, qui?
+                </p>
+                <p class="services__card-body">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum
+                </p>
+                <a class="services__card-btn btn" href="#popup"
+                  >Learn more<i class="fa-solid fa-eye"></i
+                ></a>
+              </div>
+            </div>
+            <div class="services__card">
+              <div class="services__card-number">3</div>
+              <div class="services__card-icons">
+                <img
+                  src="https://res.cloudinary.com/dbvtwnl4j/image/upload/v1735214285/petrotec/Separator_loy11j.jpg"
+                  alt="Card Icon"
+                  class="services__card-icon"
+                />
+              </div>
+              <div class="service__card-details">
+                <h1 class="services__card-heading">Indirect Heater</h1>
+                <p class="services__card-sub-heading">
+                  Lorem ipsum dolor, Velit, qui?
+                </p>
+                <p class="services__card-body">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum
+                </p>
+                <a class="services__card-btn btn" href="#popup"
+                  >Learn more<i class="fa-solid fa-eye"></i
+                ></a>
+              </div>
+            </div>
+            <div class="services__card">
+              <div class="services__card-number">4</div>
+              <div class="services__card-icons">
+                <img
+                  src="https://res.cloudinary.com/dbvtwnl4j/image/upload/v1735214277/petrotec/3_phase_separator_and_oily_water_separator_ptcbpw.jpg"
+                  alt="Card Icon"
+                  class="services__card-icon"
+                />
+              </div>
+              <div class="service__card-details">
+                <h1 class="services__card-heading">Oily Water Separator</h1>
+                <p class="services__card-sub-heading">
+                  Lorem ipsum dolor, Velit, qui?
+                </p>
+                <p class="services__card-body">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum
+                </p>
+                <a class="services__card-btn btn" href="#popup"
+                  >Learn more<i class="fa-solid fa-eye"></i
+                ></a>
+              </div>
+            </div>
+            <div class="services__card">
+              <div class="services__card-number">5</div>
+              <div class="services__card-icons">
+                <img
+                  src="https://res.cloudinary.com/dbvtwnl4j/image/upload/v1735214277/petrotec/3_phase_separator_and_oily_water_separator_ptcbpw.jpg"
+                  alt="Card Icon"
+                  class="services__card-icon"
+                />
+              </div>
+              <div class="service__card-details">
+                <h1 class="services__card-heading">Chemical Injection Skid</h1>
+                <p class="services__card-sub-heading">
+                  Lorem ipsum dolor, Velit, qui?
+                </p>
+                <p class="services__card-body">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but
+                  also the leap into electronic typesetting, remaining
+                  essentially unchanged. It was popularised in the 1960s with
+                  the release of Letraset sheets containing Lorem Ipsum
+                  passages, and more recently with desktop publishing software
+                  like Aldus PageMaker including versions of Lorem Ipsum
+                </p>
+                <a class="services__card-btn btn" href="#popup"
+                  >Learn more<i class="fa-solid fa-eye"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer__links">
+        <p class="footer__heading-small">Contact Us</p>
+        <h3 class="footer__heading">Get In Touch With Us</h3>
+        <p class="footer__paragraph">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis labore
+          deserunt velit incidunt, iste culpa non fugit eum fugiat enim?
+        </p>
+        <div class="footer__contact">
+          <div class="contact-box-details">
+            <i class="fa-solid fa-house contact-box-details-icon"></i>
+            <div class="contact-box-details-text">
+              <p class="contact-info-box-detail">Our Location</p>
+              <p class="contact-info-box-detail">
+                Akshya Nagar 1st Block 1st Cross, Rammurthy nagar,
+                Bangalore-560016
+              </p>
+            </div>
+          </div>
+          <div class="contact-box-details">
+            <i class="fa-solid fa-phone contact-box-details-icon"></i>
+            <div class="contact-box-details-text">
+              <p class="contact-info-box-detail">Phone Number</p>
+              <p class="contact-info-box-detail">+20 123456789</p>
+            </div>
+          </div>
+          <div class="contact-box-details">
+            <i class="fa-solid fa-envelope contact-box-details-icon"></i>
+            <div class="contact-box-details-text">
+              <p class="contact-info-box-detail">Email Address</p>
+              <p class="contact-info-box-detail">petrotec@email.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__send">
+        <!-- <img
+          src="./css/svg/grid.svg"
+          alt="grid of circles"
+          class="footer__send-image footer__send-image-1"
+        />
+        <img
+          src="./css/svg/grid.svg"
+          alt="grid of circles"
+          class="footer__send-image footer__send-image-2"
+        /> -->
+        <input
+          type="text"
+          class="footer__input"
+          id="name"
+          placeholder="Your Name"
+        />
+        <input
+          type="text"
+          class="footer__input"
+          id="email"
+          placeholder="Your Email"
+        />
+        <input
+          type="text"
+          class="footer__input"
+          id="phone"
+          placeholder="Your Phone number"
+        />
+        <textarea
+          class="footer__input footer__input-textarea"
+          id="message"
+          placeholder="Your Message"
+        ></textarea>
+        <a href="#" class="footer__send-btn btn">Send Message</a>
+      </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
