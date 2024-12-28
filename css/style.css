@@ -95,7 +95,7 @@ body {
 
 @media (max-width: 37.5em) {
   .header {
-    padding: 0 var(--section-padding-sm) var(--section-padding-sm);
+    padding: var(--section-padding-sm);
   }
 }
 
@@ -103,7 +103,7 @@ body {
   .header {
     display: flex;
     flex-direction: column;
-    gap: 8rem;
+    gap: 4rem;
   }
 }
 
@@ -173,7 +173,7 @@ body {
 .header .navigation__link:visited {
   color: var(--clr-tertiary);
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 2rem;
   transition: all 0.2s ease;
 }
 .header__main {
@@ -207,11 +207,14 @@ body {
 @media (max-width: 28.125em) {
   .header__main {
     margin: 0;
+    padding: 4rem;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0;
   }
 }
 .header__main-h1 {
   font-size: 4rem;
-  /* animation: ; */
 }
 
 @keyframes border-grow {
@@ -222,9 +225,7 @@ body {
 }
 @media (max-width: 28.125em) {
   .header__main-h1 {
-    font-size: 3rem;
-    padding-top: 2rem;
-    padding-bottom: 0;
+    /* font-size: 3rem; */
   }
 }
 .header__main-p {
@@ -252,6 +253,13 @@ body {
 .header__main:hover::before {
   right: 0%;
   border-bottom: 2px solid var(--clr-primary);
+}
+
+@media (max-width: 37.5em) {
+  .header__main::before {
+    right: 0%;
+    border-bottom: 2px solid var(--clr-primary);
+  }
 }
 .header__main:hover {
   border-color: transparent;
@@ -382,6 +390,15 @@ body {
 
 .header .features i {
   font-size: 3.5rem;
+}
+
+@media (max-width: 37.5em) {
+  .header .features i {
+    font-size: 4.5rem;
+  }
+  .header .features__text {
+    font-size: 2.5rem;
+  }
 }
 .header .features span {
   font-size: 3.5rem;
@@ -849,6 +866,13 @@ body {
 }
 .services__card-btn:active + .services__card-more-info {
   display: block;
+}
+
+@media (max-width: 37.5em) {
+  .services__card-btn:link,
+  .services__card-btn:visited {
+    align-self: center;
+  }
 }
 
 /* POPUP */
