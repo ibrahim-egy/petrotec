@@ -173,7 +173,7 @@ body {
 .header .navigation__link:visited {
   color: var(--clr-tertiary);
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.6rem;
   transition: all 0.2s ease;
 }
 .header__main {
@@ -204,13 +204,21 @@ body {
   }
 }
 
+@media (max-width: 37.5em) {
+  .header__main {
+    margin: 8rem auto;
+    border-color: transparent;
+    text-align: center;
+    max-width: 50rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px 10px 0 0;
+  }
+}
+
 @media (max-width: 28.125em) {
   .header__main {
-    margin: 0;
+    margin: 0 auto;
     padding: 4rem;
-    border-color: transparent;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 0;
   }
 }
 .header__main-h1 {
@@ -606,11 +614,29 @@ body {
 
 .relation__slides {
   display: flex;
-  gap: 2.5rem;
+  gap: 3vw;
   overflow: hidden;
   justify-content: center;
-
+  /* animation: scroll 20s linear infinite; */
+  z-index: 5;
   /* align-items: center; */
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.relation__slide {
+  transition: all 0.3s ease;
+  /* padding: 2rem; */
+}
+.relation__slide:hover {
+  transform: scale(1.1);
 }
 
 .relation__slide-img {
@@ -683,13 +709,21 @@ body {
 .services__heading {
   color: var(--clr-sec);
   margin-bottom: 2.5rem;
+  word-spacing: 5;
+  font-weight: 500;
 }
 
 .services__sub-heading {
-  font-size: 1.75rem;
-  font-weight: 300;
   color: var(--clr-sec);
-  /* max-width: 50%; */
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.services__sub-heading span {
+  color: var(--clr-primary);
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 @media (max-width: 37.5em) {
@@ -824,7 +858,8 @@ body {
   position: relative;
   color: var(--clr-primary);
   border-radius: var(--border-radius);
-  max-width: 75%;
+  /* max-width: 75%; */
+  padding-right: 5rem;
   text-transform: capitalize;
   font-weight: 500;
 }
@@ -832,6 +867,7 @@ body {
 @media (max-width: 37.5em) {
   .services__card-heading {
     max-width: none;
+    padding: 0;
   }
 }
 
